@@ -124,11 +124,3 @@ docs/
 ```
 
 The commands never modify application code.
-
-## Compatibility
-
-The agent needs to be able to read, search and edit files, and to ask the user questions. Native subagents let stages run in parallel; without them the work runs sequentially. Sync reminders are **instructions, not hooks**: they only work when the agent loads the project instructions. Behavior can differ between agents.
-
-## Publishing
-
-Keep `SKILL.md`, `instructions/` and `template/` together, add a `LICENSE`, push to GitHub and replace `OWNER/REPO`. Check that it installs with `npx skills add OWNER/REPO --list`. You don't need a `package.json`.
