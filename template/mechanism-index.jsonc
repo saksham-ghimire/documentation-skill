@@ -1,0 +1,22 @@
+{
+  "mechanisms": [
+    {
+      "id": "<normalized-mechanism-name>",
+      "name": "<mechanism name>",
+      "contract": "<execution behavior provided and where it applies>",
+      "entrypoints": [
+        "<entrypoint-id>"
+      ],
+      "tables": [
+        "<table-name>"
+      ],
+      "doc_status": "pending" // pending | done
+    }
+  ],
+  "unknowns": [
+    {
+      "what": "<mechanism>",
+      "reason": "<unresolved participating behavior>"
+    }
+  ]
+}

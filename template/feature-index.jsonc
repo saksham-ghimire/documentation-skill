@@ -1,0 +1,27 @@
+
+{
+
+  "features": [
+    {
+      "id": "<normalized-feature-name>",
+      "name": "<feature name>",
+      "outcome": "<recognizable product outcome>",
+      "entrypoints": [
+        "<entrypoint-id>"
+      ],
+      "doc_status": "pending" // pending | done
+    }
+  ],
+  "excluded": [
+    {
+      "entrypoint": "<entrypoint-id>",
+      "reason": "<reason>"
+    }
+  ],
+  "unknowns": [
+    {
+      "entrypoint": "<entrypoint-id>",
+      "reason": "<unresolved feature boundary>"
+    }
+  ]
+}

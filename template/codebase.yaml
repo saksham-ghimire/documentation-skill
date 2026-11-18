@@ -1,0 +1,15 @@
+# Replace docs with the folder selected during init.
+# Every path is relative to the project root, not to this file's root value.
+root: docs
+schema: docs/schema.dbml
+index: docs/entrypoint-index.json
+docs: docs/entrypoints/
+feature_index: docs/feature-index.json
+features: docs/features/
+mechanism_index: docs/mechanism-index.json
+mechanisms: docs/mechanisms/
+workflow_index: docs/workflow-index.json
+workflows: docs/workflows/
+topics: docs/mechanisms/topics/
+product_overview: docs/overview.md
+engineering_overview: docs/engineering.md

@@ -1,0 +1,25 @@
+{
+  "entrypoints": [
+    {
+      "id": "http-get-api-users-id",
+      "kind": "http",
+      "trigger": "GET /api/users/{id}",
+      "handler": "src/users/users.controller.ts:42",
+      "doc_status": "pending"
+    }
+  ],
+  "excluded": [
+    {
+      "what": "GET /docs",
+      "source": "src/main.ts:18",
+      "reason": "framework-generated API docs"
+    }
+  ],
+  "unknowns": [
+    {
+      "what": "route registered from a runtime-built list",
+      "source": "src/routes/dynamic.ts:7",
+      "missing": "trigger"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+
+{
+  "workflows": [
+    {
+      "id": "<normalized-workflow-name>",
+      "name": "<workflow name>",
+      "invariant": "<shared state relationship or consistency concern>",
+      "features": [
+        "<feature-id>"
+      ],
+      "entrypoints": [
+        "<entrypoint-id>"
+      ],
+      "tables": [
+        "<table-name>"
+      ],
+      "mechanisms": [
+        "<mechanism-id>"
+      ],
+      "doc_status": "pending" // pending | done
+    }
+  ],
+  "unknowns": [
+    {
+      "what": "<technical process>",
+      "reason": "<unresolved participating behavior>"
+    }
+  ]
+}
